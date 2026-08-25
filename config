@@ -102,7 +102,7 @@ bindsym $mod+Shift+t layout tabbed
 bindsym $mod+r layout toggle split
 
 # toggle tiling / floating
-bindsym $mod+Shift+space floating toggle
+bindsym $mod+m floating toggle
 
 # change focus between tiling / floating windows
 bindsym $mod+space focus mode_toggle
@@ -223,7 +223,7 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ to
 # bind apps
 bindsym Ctrl+Mod1+t exec ghostty
 bindsym $mod+b exec brightness-controller
-bindsym $mod+m exec thorium-browser
+# bindsym $mod+m exec thorium-browser
 bindsym $mod+e exec --no-startup-id env GTK_THEME=Adwaita:dark thunar
 bindsym $mod+n exec --no-startup-id env GTK_THEME=Adwaita:dark mousepad
 # bindsym Print exec --no-startup-id xfce4-screenshooter -r
