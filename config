@@ -98,11 +98,11 @@ bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
 # bindsym $mod+t layout stacking
-bindsym $mod+Shift+t layout tabbed
+bindsym $mod+m layout tabbed
 bindsym $mod+r layout toggle split
 
 # toggle tiling / floating
-bindsym $mod+m floating toggle
+bindsym $mod+n floating toggle
 
 # change focus between tiling / floating windows
 bindsym $mod+space focus mode_toggle
@@ -225,7 +225,7 @@ bindsym Ctrl+Mod1+t exec ghostty
 bindsym $mod+b exec brightness-controller
 # bindsym $mod+m exec thorium-browser
 bindsym $mod+e exec --no-startup-id env GTK_THEME=Adwaita:dark thunar
-bindsym $mod+n exec --no-startup-id env GTK_THEME=Adwaita:dark mousepad
+# bindsym $mod+n exec --no-startup-id env GTK_THEME=Adwaita:dark mousepad
 # bindsym Print exec --no-startup-id xfce4-screenshooter -r
 
 # Scratchpad
